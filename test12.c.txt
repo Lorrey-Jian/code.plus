@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float r,v;
+    float b=3.1415927;
+    scanf("%f",&r);
+    v=4.0/3.0*b*r*r*r;
+    printf("%.3f",v);
+    return 0;
+}
